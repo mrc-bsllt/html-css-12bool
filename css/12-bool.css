@@ -5,15 +5,18 @@
 }
 
 /* CONTAINER */
-.debug .container {
+.debug > .container {
   border: 1px solid #000000;
   border-top: none;
 }
-.container {
+body > .container {
   max-width: 1170px;
   height: 150px;
   min-height: 150px;
   margin: 0 auto;
+}
+body .container .container {
+  height: 100%;
 }
 .container::after {
   content: "";
@@ -36,13 +39,13 @@
 .debug .container > [class*="col-"]:last-child {
   border-right: none;
 }
-.debug [class*="col-"] > [class*="col-"] {
+.debug [class*="col-"] > .container [class*="col-"] {
   background-color: #3b4045;
   border: 1px solid #ffffff;
   color: #ffffff;
   border-right: none;
 }
-.debug [class*="col-"] > [class*="col-"]:last-child {
+.debug [class*="col-"] > .container [class*="col-"]:last-child {
   border-right: 1px solid #ffffff;
 }
 /* /COLONNE GENERALE */
