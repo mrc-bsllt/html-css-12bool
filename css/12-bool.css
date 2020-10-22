@@ -24,7 +24,7 @@
 
 /* COLONNE */
 /* COLONNE GENERALE */
-.debug [class*="col-"] {
+[class*="col-"] {
   float: left;
   height: 100%;
 }
