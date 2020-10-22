@@ -110,3 +110,12 @@
   margin-left: calc((100% / 12) * 11);
 }
 /* /OFFSET COLONNE */
+
+/* POSIZIONAMENTO AL CENTRO */
+.cntrl-algn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* /POSIZIONAMENTO AL CENTRO */
