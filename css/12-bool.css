@@ -28,7 +28,7 @@
 }
 .debug .container > [class*="col-"] {
   float: left;
-  background-color: #668baf;
+  background-color: #486077;
   border-right: 1px solid #000000;
 }
 .container > [class*="col-"]:last-child {
