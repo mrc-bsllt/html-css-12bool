@@ -23,17 +23,31 @@
 /* /CONTAINER */
 
 /* COLONNE */
+/* COLONNE GENERALE */
 .debug [class*="col-"] {
+  float: left;
   height: 100%;
 }
 .debug .container > [class*="col-"] {
-  float: left;
+  padding: 5px;
   background-color: #486077;
   border-right: 1px solid #000000;
 }
-.container > [class*="col-"]:last-child {
+.debug .container > [class*="col-"]:last-child {
   border-right: none;
 }
+.debug [class*="col-"] > [class*="col-"] {
+  background-color: #3b4045;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-right: none;
+}
+.debug [class*="col-"] > [class*="col-"]:last-child {
+  border-right: 1px solid #ffffff;
+}
+/* /COLONNE GENERALE */
+
+/* COLONNE SPECIFICO */
 .col-1 {
   width: calc(100% / 12);
 }
@@ -70,6 +84,7 @@
 .col-12 {
   width: 100%;
 }
+/* /COLONNE SPECIFICO */
 /* /COLONNE */
 
 /* OFFSET COLONNE */
