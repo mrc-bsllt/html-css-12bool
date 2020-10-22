@@ -15,7 +15,7 @@ body > .container {
   min-height: 150px;
   margin: 0 auto;
 }
-body .container .container {
+[class*="col-"] > .container {
   height: 100%;
 }
 .container::after {
