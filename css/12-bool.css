@@ -28,7 +28,7 @@
 }
 .debug .container > [class*="col-"] {
   float: left;
-  background-color: pink;
+  background-color: #668baf;
   border-right: 1px solid #000000;
 }
 .container > [class*="col-"]:last-child {
@@ -73,6 +73,9 @@
 /* /COLONNE */
 
 /* OFFSET COLONNE */
+.debug .container > [class*="off-col-"] {
+  border-left: 1px solid #000000;
+}
 .off-col-1 {
   margin-left: calc(100% / 12);
 }
